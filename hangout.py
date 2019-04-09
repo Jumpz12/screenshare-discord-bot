@@ -3,11 +3,10 @@ import asyncio
 from discord.ext.commands import Bot
 from discord.ext import commands
 from discord.utils import get
-import time
-
-client = discord.Client() 
 
 token = "PUT TOKEN HERE"
+
+client = discord.Client() 
 
 @client.event 
 async def on_ready():
@@ -16,7 +15,6 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-
     if message.content == ">hangout":
         if message.author.voice.voice_channel != None:
             voice_channel = message.author.voice.voice_channel.id
@@ -31,9 +29,5 @@ async def on_message(message):
         else:
             failed = discord.Embed(description = "You are not in a voice channel!", color = 0xffa13d)
             await client.send_message(message.channel, embed = failed)
-
-
-
-
 
 client.run(token)
