@@ -7,6 +7,8 @@ import time
 
 client = discord.Client() 
 
+token = "PUT TOKEN HERE"
+
 @client.event 
 async def on_ready():
     print("Online and Ready to Hang!")
@@ -34,6 +36,6 @@ async def on_message(message):
 
 
 
-client.run("NTY0OTg5ODY3MjY5MDI5ODkw.XKv55A.WqLdbbNH6xHwzkbZ-Z7DhUv-1WE")
+client.run(token)
 
 #https://discordapp.com/channels/417847824873422851/545467222815014913
