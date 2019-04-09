@@ -14,4 +14,5 @@ Allow screensharing in any voice channel on Discord.
 * Add custom prefix support.
 * Implement an accept/deny invite feature.
 * Add the ability to get the link again.
-
+* Add the ability to invite new people who weren't in the channel originially.
+* Make it so users can create private "hangout" channels.
