@@ -37,5 +37,3 @@ async def on_message(message):
 
 
 client.run(token)
-
-#https://discordapp.com/channels/417847824873422851/545467222815014913
