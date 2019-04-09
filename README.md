@@ -13,4 +13,5 @@ Allow screensharing in any voice channel on Discord.
 
 * Add custom prefix support.
 * Implement an accept/deny invite feature.
+* Add the ability to get the link again.
 
