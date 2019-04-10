@@ -9,7 +9,7 @@ Allow screensharing in any voice channel on Discord.
 * Copy the token into the `token` variable within the file, making sure it is a string.
 * Simply run the `.py` file and the bot will automatically load.
 
-DISCLAIMER: Uses `discord.py` version 0.16.12
+DISCLAIMER: Uses `discord.py` version 1.0.1
 
 ### Todo List
 
@@ -18,4 +18,4 @@ DISCLAIMER: Uses `discord.py` version 0.16.12
 * Add the ability to get the link again.
 * Add the ability to invite new people who weren't in the channel originially.
 * Make it so users can create private "hangout" channels.
-* Migrate to `discord.py` version 1.0.0
+* ~~Migrate to `discord.py` version 1.0.0~~
