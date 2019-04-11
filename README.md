@@ -19,3 +19,8 @@ DISCLAIMER: Uses `discord.py` version 1.0.1
 * Add the ability to invite new people who weren't in the channel originially.
 * Make it so users can create private "hangout" channels.
 * ~~Migrate to `discord.py` version 1.0.0~~
+
+
+### Credits
+* Jumpz: Making it
+* [Luke Call](https://github.com/LukeCall): For making it in [NodeJS](https://github.com/LukeCall/screensharing-discord-bot)
