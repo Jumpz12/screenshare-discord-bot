@@ -30,18 +30,16 @@ async def on_message(message):
     file = open(file_name, "a+")
     file.close
     file = open(file_name, "r")
-    for line in file.readlines():
-        for x in line:
-            if x == "":
-                file.close
-                file = open(file_name, "w")
-                file.write(">")
-                file.close
-                file = open(file_name, "r")
-                print(file.read())
-                file.close
-            else:
-                file.close
+    length = sum(1 for line in file)
+    if length == 0:
+        file.close
+        file = open(file_name, "w")
+        file.write(">")
+        file.close
+        file = open(file_name, "r")
+        file.close
+    else:
+        file.close
 
     file = open(file_name, "r")
     line = file.readline()
