@@ -8,12 +8,13 @@ Allow screensharing in any voice channel on Discord.
 * Make it a bot and grab it's token.
 * Copy the token into the `token` variable within the file, making sure it is a string.
 * Simply run the `.py` file and the bot will automatically load.
+* Default prefix is `>` .
 
 DISCLAIMER: Uses `discord.py` version 1.0.1
 
 ### Todo List
 
-* Add custom prefix support.
+* ~~Add custom prefix support.~~
 * Implement an accept/deny invite feature.
 * Add the ability to get the link again.
 * Add the ability to invite new people who weren't in the channel originially.
