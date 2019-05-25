@@ -46,7 +46,7 @@ async def on_message(message):
     prefix = line
     file.close
     
-    if message.content == prefix+"hangout":
+    if message.content == prefix + "hangout":
         if message.author.voice != None:
             voice_channel = message.author.voice.channel.id
             url = "https://discordapp.com/channels/" + str(message.guild.id) + "/" + str(voice_channel)
@@ -62,7 +62,7 @@ async def on_message(message):
             failed = discord.Embed(description = "You are not in a voice channel!", color = 0xffa13d)
             await message.channel.send(embed = failed)
 
-    elif message.content == prefix+"prefix":
+    elif message.content == prefix + "prefix":
         if not message.channel.permissions_for(message.author).manage_messages:
             prefix_permissions_failed = discord.Embed(description = "You do not have the correct permissions to change the prefix", color = 0xffa13d)
             await message.channel.send(embed = prefix_permissions_failed)
@@ -78,7 +78,7 @@ async def on_message(message):
             file.write(reply.content)
             file.close
             prefix = reply.content
-            prefix_success = discord.Embed(description = "Prefix changed to "+prefix, color = 0x5adb51)
+            prefix_success = discord.Embed(description = "Prefix changed to " + prefix, color = 0x5adb51)
             await message.channel.send(embed = prefix_success)
  
 
