@@ -10,7 +10,7 @@ Allow screensharing in any voice channel on Discord.
 * Simply run the `.py` file and the bot will automatically load.
 * Default prefix is `>` .
 
-DISCLAIMER: Uses `discord.py` version 1.0.1
+DISCLAIMER: Uses `discord.py` version 1.2.2
 
 ### Todo List
 
